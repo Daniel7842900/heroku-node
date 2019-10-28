@@ -1,0 +1,99 @@
+
+
+#searchAndAddDiv {
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-right: 500px;
+    margin-left: 500px;
+    padding-left: 50px;
+    padding-right: 10px;
+    align-items: flex-start;
+}
+
+#searchbar {
+    width: 250px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.buttonSA {
+    width: 75px;
+    height: 30px;
+    font-size: 13px;
+    background-color: lightgray;
+    color: black;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.addInput {
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    font-size: 20px;
+    margin: 5px;
+}
+
+#addDiv {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: none;
+    flex-direction: column;
+    
+}
+#userBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardDiv {
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+	border: 1px solid lightgray;
+    width: 400px;
+    height: 125px;
+    margin: 0px;
+}
+
+.nameDescDiv {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    
+}
+
+.artistName {
+    margin: 0;
+}
+
+.artistDesc {
+    margin: 0;
+}
+
+.artistImg {
+    width: 100px;
+    height: 100px;
+    margin:10px;
+    border-radius: 10px;
+}
+
+.artistDelBtn {
+    float: right;
+    width: 60px;
+    height: 25px;
+    font-size: 15px;
+    background-color: rgb(222, 19, 57);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding-bottom: 5pt;
+    margin-right: 10px;
+    margin-left: auto;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./lab5.css">
+	<link href="https://fonts.googleapis.com/css?family=Heebo|Open+Sans&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="./lab5.js"></script>
+</head>
+<body>
+	<div id="searchAndAddDiv">
+		<div id="insearchDiv">
+			<h2 id="art">Artist Directory</h1>
+			<input id="searchBar" type="text" name="search">
+			<button id="addArtistToggle" class="buttonSA" onclick="showAdd()">Add</button>
+			<button  class="buttonSA" onclick="search()">Search</button>
+		</div>
+		<div id="addDiv">
+			<input type="text" id="artistName" class="addInput" name="name" placeholder="Artist Name" maxlength="40"><br>
+			<input type="text" id="artistAbout" class="addInput" name="description" placeholder="About artist" maxlength="40"><br>
+			<input type="url" id="artistUrl" class="addInput" name="url" placeholder="Image url">
+			<button id="addArtistBtn" onclick="addUser()">Add Artist</button>
+		</div>
+	</div>
+</body>
+</html>
